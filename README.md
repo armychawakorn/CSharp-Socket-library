@@ -1,15 +1,27 @@
-## CSharp-Socket-library
+# CSharp-Socket-library
 <a href="#CSharp-Socket-library">CSharp-Socket-library</a>
 This Library help you to connect the socket server and send data to your server
 
 
 <img src="Preview.png">
 
-
+# Example Code
+  ```sh
+  Console.Write("Please Enter your message or data: "); ##print msg
+  string data = Console.ReadLine(); ##input data
+  RosinanteSocket.RosinanteSocket rosi = new RosinanteSocket.RosinanteSocket(); ##create new object
+  rosi.Serverip = "Server IP"; ##set IP of your server here
+  rosi.Port = 27015; ##set port of your server
+  rosi.Data = data; ##data you will send to server
+  rosi.Getresponse = false; ##set do you want response from server
+  rosi.Socket(); ##start fucntion send data to server
+  ```
+  
+  
+  
 ## Built With
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [.NET Framework](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
-
 
 
 ### Parameter
