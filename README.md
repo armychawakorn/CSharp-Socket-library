@@ -1,10 +1,14 @@
-## Hola
+## CSharp-Socket-library
 <a href="#CSharp-Socket-library">CSharp-Socket-library</a>
 This Library help you to connect the socket server and send data to your server
+
+
+<img src="Preview.png">
+
+
 ## Built With
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [.NET Framework](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
-
 
 
 
