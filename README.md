@@ -16,6 +16,8 @@ This Library help you to connect the socket server and send data to your server
   rosi.Getresponse = false; ##set do you want response from server
   rosi.Socket(); ##start fucntion send data to server
   ```
+don't forget add while loop :)
+  
   
   
   
